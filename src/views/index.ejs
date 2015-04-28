@@ -1,0 +1,9 @@
+<h1>Welcome</h1>
+
+<% for(var i = 0; i < articles.length; i = i + 1) { %>
+    <article>
+        <header><%= articles[i].title %></header>
+
+        <%= articles[i].content %>
+    </article>
+<% } %>

@@ -1,0 +1,28 @@
+{
+  "name": "node-koa-example",
+  "version": "0.0.0",
+  "description": "Playground for koa and generators",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ertrzyiks/node-koa-example.git"
+  },
+  "author": "ertrzyiks <mateusz.derks@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ertrzyiks/node-koa-example/issues"
+  },
+  "homepage": "https://github.com/ertrzyiks/node-koa-example",
+  "dependencies": {
+    "babel": "^5.1.13",
+    "co-views": "^0.3.0",
+    "ejs": "^2.3.1",
+    "koa": "^0.19.1",
+    "q": "^1.3.0",
+    "wait.for-es6": "0.0.3"
+  }
+}
